@@ -73,3 +73,38 @@
 
 // "==" doesnt check the data type ;
 // "===" check the datatype always of both values !!
+
+
+
+
+
+//                                array in js
+
+const names=[ "jayesh" , "hari" , "pankaj" ,"ashwin" ,"yakshit"];
+console.log(names)
+console.log(typeof names );
+
+
+
+//                           OBJECT 
+
+    // HERE  we use it like key value pair on "{}"
+let myobject = { name : "jayesh",
+      class : 6,
+      age : 12,
+}
+const { name , age}=myobject
+
+console.log(name); 
+console.log(age);  
+
+
+
+//                              FUNCTIONS
+ let myfunction = function(){
+    console.log("hello  jayesh");
+ }
+ myfunction()
+ console.log(myfunction);
+
+ console.log(typeof myfunction)
