@@ -11,3 +11,4 @@ console.log(date.getDay())
 console.log(date.toLocaleString('default',{
     weekday:"long"
 }))
+console.log("hello");
