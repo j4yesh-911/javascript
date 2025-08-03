@@ -41,3 +41,51 @@ console.log(myobject.email)  // as now object id freezed no more changes can m=b
 // so this console.log will also show the older email which is "kakumangal@gmail.com"
 
 
+//**************** obj 2 ************************
+
+const iguser = {}
+iguser.name = 'jayesh';
+iguser.age = 19;
+iguser.isloggedin =false;
+
+console.log(iguser)
+
+console.log(Object.keys(iguser))
+console.log(Object.values(iguser))
+console.log(Object.entries(iguser))
+console.log(iguser.hasOwnProperty('isloggedin'))
+console.log(iguser.hasOwnProperty('location'))
+
+const regularuser ={}
+ regularuser.uskanaam={
+fullname:{
+firstname : 'jayesh',
+lastname : 'gayri'
+}
+}
+console.log(regularuser.uskanaam.fullname)
+
+const obj1 ={1:'a', 2:'b'};
+const obj2 ={3:"c", 4:'d'};
+
+console.log(Object.assign(obj1, obj2))
+const obj3 = {...obj1,...obj2}
+console.log(obj3)
+
+
+const userobj=[
+{
+    user:"user",
+    gmail:'jayesh@gmail.com'
+},
+{
+    user:"useeer",
+    gmail:'jayesh@gmail.com'
+},
+{
+    user:"user",
+    gmail:'jayesh@gmail.com'
+}
+]
+console.log(userobj[1].user)
+
