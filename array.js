@@ -34,3 +34,45 @@ console.log ("\n\nbefore splice",arr);
 console.log (arr.splice(1,3));// effects the originl array like it remove the spliced elements from og array including the limit 
 console.log ("after the splice",arr);
 
+
+
+
+
+//******************* ARRAY 2 **********************
+
+// push , concate , spread(... ...) , flat 
+// Array. is arr()   , Array.from() , Array.of()
+
+
+
+let my_arr = ['jayesh', 'hari', 'yakshit','ashwin']
+let arr_2 = ['achal', 'divyansh', 'pankaj']
+let arr_3 =['purva', 'ivanshi','yashaswi']
+my_arr.push(arr_2)
+console.log(my_arr)// adds 2nd arr to firts like ele of 1 arr and last ele of 1st arr = whole 2nd arr
+console.log(my_arr[4])
+console.log(my_arr[4][1])
+
+let newArr  = my_arr.concat(arr_2,arr_3)
+console.log(newArr);
+//or
+let neewArr  = [].concat(my_arr,arr_2,arr_3)
+console.table(neewArr);
+
+
+console.log(...my_arr,...arr_2,...arr_3)// spread type to spread add array ele 
+
+
+
+let numArr= [1,2,3,[4,5],[6,[7,8]]]
+let anotherNumarr = numArr.flat(1)// removes the complexity in the arr like it sorts the ele in arr or sorts the subarr in arr ,
+//  and hack for unknown complexity or subarr is using flat(infinity)
+console.log(anotherNumarr)
+
+console.log(Array.isArray('jayesh'))
+console.log(Array.from('jayesh'))
+console.log(Array.of('jayesh'))
+
+
+
+
