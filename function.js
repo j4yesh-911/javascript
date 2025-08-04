@@ -1,0 +1,30 @@
+function myfunction(){
+    console.log('hello')
+}
+myfunction()
+
+function addTwoNumbers(number1 , number2){
+return number1+number2;
+}
+
+console.log(addTwoNumbers(5,5))
+
+function addTwoNumbers(number1 , number2, number3,number4){
+return number1+number2+number3+number4;
+}
+
+console.log(addTwoNumbers(5,('5'),2,3))
+
+
+function loggedin(name){
+    if (!name){
+        console.log('plese enter name ')
+        return 
+    }
+    console.log(`${name} just logged innn`)
+    return name ;
+}
+// loggedin('jayesh')
+
+console.log(loggedin('jayesh'))// this console log is to print return value
+//  and also gives the value for the name variable 
