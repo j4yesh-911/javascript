@@ -28,3 +28,29 @@ function loggedin(name){
 
 console.log(loggedin('jayesh'))// this console log is to print return value
 //  and also gives the value for the name variable 
+
+
+//*************************** functions 2 ********************************
+
+priceToAdd ={
+    price :250,
+    age : 19
+}
+
+function priceAndAge(anyobject){
+    console.log(`hello price is ${anyobject.price}, and age is ${anyobject.age} and dress color is ${dresscolor}`)
+}
+
+priceAndAge(priceToAdd)
+console.table(priceAndAge(priceToAdd))
+console.table(priceToAdd)
+
+priceAndAge({
+       agee : 120,
+    dresscolor : yellow 
+})
+
+// priceAndAge(priceToAdd){
+//     agee = 120,
+//     dresscolor = yellow ;
+// }
