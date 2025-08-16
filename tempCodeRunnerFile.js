@@ -1,5 +1,3 @@
-console.log(fu(10))
-const fu = function funseccc(numm){
-     return numm + 5;
-    
-} 
+addTwonum=(num1,num2)=> {(num1+num2)}
+
+console.log(addTwonum(5,2))
