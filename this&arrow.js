@@ -78,3 +78,19 @@ console.log(addTwonum(5,2)) // as this will show undefined as perenthises is ins
 
 // something for obj decleration in arrow function is below 
 
+// const futtu = addmynum =(num)=>(num**2)
+// console.log(futtu(5))
+
+
+const sqr = squaree=()=> {
+    (number={
+        username:'jayesh',
+        future : square=(num1)=>{
+        console.log(this.username)
+        return num1**2
+    }
+    })
+    console.log(square(5))
+}
+squaree()
+
