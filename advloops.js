@@ -4,6 +4,10 @@ for (const element of jss) {
     
 }
 
+for (const key in jss) {
+    console.log(jss[key])
+}
+
 const valu = 'hello_jayesh'
 for (const ele of valu) {
     console.log(ele);
@@ -40,3 +44,39 @@ const kalu ={
 for (const key in kalu) {
    console.log(`${key} stands for ${kalu[key]}`)
 } 
+
+
+
+const arrr=['jayesh', 'hari' , 'pankaj']
+// arrr.forEach(function(val){
+//     console.log(val)
+// })
+function dolo(item){
+    console.log(item);
+    
+}
+arrr.forEach((dolo))
+
+
+
+
+const jah=[
+    {
+        jayeshsub :'java',
+        jayeshscript: 'js'
+    }
+,
+    {
+        jayeshsub :'ruby',
+        jayeshscript: 'python'
+    },
+    {
+        jayeshsub :'react',
+        jayeshscript: 'typescript'
+    }
+]
+
+jah.forEach((item)=>{
+    console.log(`jayesh script is ${item.jayeshscript}, and jayesh sub is  ${item.jayeshsub}`);
+    
+})
