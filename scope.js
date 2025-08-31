@@ -49,10 +49,13 @@ console.log(testfun(105));
 
 // console.log(fu(10)) here this line can't run it will give error as in this type of fun decleration we can't do fun call like this 
 
+// console.log(fu(10)) // " this line ", talking about in above line can give error only if written aboe the function , no problem if id written below the function decrelation and defination 
+
 
 const fu = function funseccc(numm){
      return numm + 5;
     
 } 
 console.log(fu(10))
+
 
