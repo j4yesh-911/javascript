@@ -1,20 +1,18 @@
-const jah=[
-    {
-        jayeshsub :'java',
-        jayeshscript: 'js'
-    }
-,
-    {
-        jayeshsub :'ruby',
-        jayeshscript: 'python'
-    },
-    {
-        jayeshsub :'react',
-        jayeshscript: 'typescript'
-    }
-]
+priceToAdd ={
+    price :250,
+    age : 19,
+    // dresscolor : 'yellow' 
+}
 
-jah.forEach((item)=>{
-    console.log(`jayesh script is ${item.jayeshscript}, and jayeshbu is  ${item.jayeshsub}`);
-    
+function priceAndAge(anyobject){
+    console.log(`hello price is ${anyobject.price}, and age is ${anyobject.age} and dress color is ${anyobject.dresscolor}`)
+}
+
+// priceAndAge(priceToAdd)
+console.table(priceAndAge(priceToAdd))
+console.table(priceToAdd)
+
+priceAndAge({
+       agee : 120,
+    dresscolor : 'yellow' 
 })
