@@ -1,5 +1,5 @@
-console.log(fu(10))
-const fu = function funseccc(numm){
-     return numm + 5;
-    
-} 
+
+
+const jayesh =[20,30,50,60]
+.filter((num)=> num>=23)
+console.log(jayesh)
