@@ -130,3 +130,23 @@ const mytotal=mynum.reduce((acc,val)=>acc+val,0)
     ]
     console.log(
      objj.reduce((acc,val)=>acc+val.price,0));
+
+
+
+     // *********************************** find ************************
+
+const krr =[1,2,3,4,5]
+const find =krr.find((num)=>num>1)
+console.log(find)
+
+// filter ka chota bhai h condition satisfy hone k just aad vali val deta h 
+
+//******************************************** findIndex ***********************
+
+
+const lrr =[1,3,5,7,9]
+const lw =lrr.findIndex((val)=>val>3)
+console.log(lw);
+
+
+// works just like find but find indexs for that val
