@@ -64,4 +64,15 @@ const variableee = function myvarfun(){
 }
 
 
+
+const a = 'shubham'
+
+print()
+
+function print(){
+    console.log(a);
+}
+
+
+
 // again same thing as above
