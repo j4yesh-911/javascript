@@ -37,6 +37,7 @@ data.forEach(element=>{
     })
     tbody.appendChild(tr2)
 })
+ table.appendChild(tbody)    ///////////////////
 document.body.appendChild(table)
  
 
